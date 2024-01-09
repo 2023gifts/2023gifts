@@ -1,0 +1,107 @@
+/*Sabrina 11/27/23*/
+
+body { color: #980321;  /*set text color to white*/
+	  background-color: #FFFFFF; /*set background color to light blue*/
+	  font-family: Calibri, sans-serif; /*set font to Calibri, or the generic sans-serif font*/
+}
+	 
+#outer-wrapper { width: 90%; /* set width of of id="outer-wrapper" to 90%*/
+				margin: 0 auto 0 auto; /* center content within id="outer-wrapper"*/
+}
+				
+ nav, #content, footer { background-color: #FFFFFF; /* set background color to bright blue*/ 
+							padding: 10px; /*add 10px of padding on all four sides of the wideframe containers*/
+}
+
+header {
+	background-color: #FFFFFF;
+	padding: 0 2% 2% 0;
+}
+
+footer { font-size: 0.75em; /*reduce the font size in the footer*/
+	   text-align: center; /*center the text in the footer*/
+	   clear: both;
+}
+	
+img { 
+}
+
+.rightmargin { 
+	float: left; /*float the image to the left*/
+	margin-right: 2%; /*add 2% right margin to class="rightmargin"*/
+}
+
+h1, h2, h3 {
+	font-family: Verdana, sans-serif;
+	padding-top: 1%;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+}
+
+nav {
+	background-color: #ca042c;
+}
+
+.clearfloat {
+	clear: both;
+}
+
+
+
+.valign {  
+  padding: 70px 0;
+  text-align: center;
+}
+
+/* style for nav specifies text properties*/
+nav {
+	font-family: Calibri, sans-serif;
+	font-size: 1.1em;
+	overflow: auto;
+}
+	
+/* style specifies padding and margins for the unordred list*/
+nav ul {
+	margin: 0;
+	padding-left: 0.50%;
+	padding-right: 0.50%;
+}
+
+/* style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation*/
+nav li{
+	background-color: transparent;
+	list-style-type: none;
+	display: inline;
+	float: left;
+	white-space: nowrap;
+	border-radius: 0;
+	margin-left: 0;
+	margin-right: 2em;
+	padding: 0;
+
+}
+
+/* style changes the nav link text color to white and removes underline*/
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0.7em;
+}
+
+	/*style rules for pseudo-classes*/
+	nav li a:link {
+		color: #FFFFFF;
+	}
+	
+	nav li a:visited {
+		color: #FFFFFF;
+	}
+	
+	nav li a:hover {
+		color: #FF7F7F;
+		font-style: italic;
+	}
